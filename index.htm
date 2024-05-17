@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh   ;
+            display: flex;   
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+        }
+
+
+
+        .main{
+            height: 600px;
+            width: 100%;
+            border-radius: 10%;
+            background: radial-gradient(circle at 30% 107%,#da3904 0%,#040abe 45%, #870303 60%, #285AEB 90%);
+            position: relative;
+            top:100px;
+        }
+
+
+        .main::after{
+            content: "";
+            /* margin: 20px; */
+            position: absolute ;
+            top: 500px;
+            left: 100px;
+            width: 85%;
+            height: 1px;
+            border: 1px solid#fff;
+            background-color: #fff;
+        }
+
+
+        h1{
+            color: #fff;
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+
+
+        span{
+            color: rgb(255, 55, 0);
+        }
+
+
+        .com{
+            height: 100px;
+            width: 280px;
+            color: #fff;
+            position: absolute;
+            top: 200px;
+            left: 120px;
+        }
+
+
+        h2{
+            color: #fff;
+            position: absolute;
+            left: 550px;
+            top: 150px;
+        }
+
+
+        p{
+            color: #fff;
+            display:flex;
+            margin: 30px;
+            position: relative;
+            left: 515px ;
+            top: 200px;
+
+        }
+
+
+        h3{
+            color: #fff;
+            position: absolute;
+            left: 900px;
+            top: 150px;
+        }
+
+
+        a{
+            color: #fff;
+            /* padding: 10px; */
+            text-decoration: none;
+            margin: 25px;
+            display: flex;
+            position:relative;
+            left: 880px;
+            top: -50px;
+            
+        }
+
+
+        h4{
+            color: #fff;
+            position: absolute;
+            right:200px;
+            top:  150px;
+        }
+
+
+        h5{
+            color: #fff;
+            position: absolute;
+            right: 160px;
+            top: 220px;
+        }
+
+
+        h5::after{
+            content: "";
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            width: 200px;
+            height: 1px;
+            border: 1px solid #fff;
+            background-color: #f8f8fa;
+
+        }
+
+
+        .stm{
+            height: 60px;
+            width: 60px;
+            position: absolute;
+            right: 300px;
+            top: 350px;
+        }
+
+
+        .bihar{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            right: 50px;
+            top: 350px;
+        }
+
+
+        .up{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            right: 220px;
+            top: 350px;
+        }
+
+
+        .delhi{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            right: 130px;
+            top: 350px;
+        }
+
+
+        .dost{
+            font-size: 15px;
+            position: absolute;
+            top: 520px;
+            left: 500PX;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Ed- <span>Teac</span></h1>
+        <p class="com">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi beatae unde enim accusamus porro nemo dolorem eveniet nisi dicta! Est.</p>
+        <h2>office</h2>
+        <p>Street no-28</p>
+        <p>Madanpur Khadar</p>
+        <p>New Delhi-110076,india</p>
+        <p>kuamrbrajeah0@gmail.com</p>
+        <p>+91-9835647354</p>
+        <h3>Links</h3>
+        <a href="">Home</a>
+        <a href="">services</a>
+        <a href="">About Us</a>
+        <a href="">Featanxes</a>
+        <a href="">Contact</a>
+        <h4>Newslatter</h4>
+        <h5>Enter Your eamil id</h5>
+        <img class="stm" src="pngegg (1).png" alt="">
+        <img class="bihar" src="instagram2.png" alt="">
+        <img class="up" src="twitter.png" alt="">
+        <img class="delhi" src="watsab.png" alt="">
+        <h1 class="dost">Ed-Teach Computer Institute 2021-ALL Rights Reserved</h1>
+
+    </div>
+
+</body>
+</html>
